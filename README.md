@@ -4,7 +4,7 @@ Predict cryptocurrency liquidity and detect potential liquidity crises using mac
 
 This project analyzes historical cryptocurrency data to predict liquidity levels and identify potential liquidity crises. Using features like price, market capitalization, trading volume, and volatility, a Random Forest model predicts the liquidity ratio for various cryptocurrencies. A Streamlit web application provides a user-friendly interface for real-time insights.
 
-🛠 Features
+##🛠 Features
 
 Data Preprocessing: Cleans and prepares historical cryptocurrency data for modeling.
 
@@ -28,7 +28,7 @@ Visualize predicted liquidity over time
 
 Download predictions with crisis flags
 
-📊 Visualizations
+##📊 Visualizations
 
 Correlation heatmaps between key numeric features
 
@@ -36,41 +36,47 @@ Bitcoin price trends over time
 
 Predicted liquidity line plots with crisis thresholds
 
-🧰 Tech Stack
+##🧰 Tech Stack
 
 Python: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
 
-Web App: Streamlit
+##Web App: Streamlit
 
-📁 Repository Structure
+##📁 Repository Structure
 ├── data/                     # Sample datasets
+
 ├── models/                   # Trained models (e.g., liquidity_prediction_model.pkl)
+
 ├── notebooks/                # Jupyter notebooks for EDA and modeling
+
 ├── streamlit_app.py          # Streamlit app for liquidity prediction
+
 ├── requirements.txt          # Python dependencies
+
 └── README.md                 # Project documentation
+
 
 ⚡ How to Run
 
-Clone the repository:
+##Clone the repository:
 
 git clone <repository_url>
 cd cryptocurrency-liquidity-prediction
 
 
-Install dependencies:
+##Install dependencies:
 
 pip install -r requirements.txt
 
 
-Run the Streamlit app:
+##Run the Streamlit app:
 
-streamlit run streamlit_app.py
+streamlit run app.py
 
 
 Upload your historical cryptocurrency dataset and start predicting liquidity.
 
-📈 Future Improvements
+##📈 Future Improvements
 
 Incorporate additional features such as social sentiment, on-chain metrics, and macroeconomic indicators
 
@@ -78,7 +84,7 @@ Implement real-time predictions using live market data
 
 Extend model to multi-day forecasting for better crisis prediction
 
-🔗 References
+##🔗 References
 
 CoinGecko API Documentation
 
